@@ -337,7 +337,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7BB0D73DEE210E28E263CBDA /* Pods-IBAnimatableBug.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IBAnimatableBug/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -352,7 +352,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A4962D8E2CAF22C1F85C04E2 /* Pods-IBAnimatableBug.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IBAnimatableBug/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
